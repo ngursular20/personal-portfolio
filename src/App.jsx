@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const CV_PATH = "/cv/NakiyeSevdeSADIK_cv_.pdf";
+const CV_PATH = `${import.meta.env.BASE_URL}cv/NakiyeSevdeSADIK_cv_.pdf`;
 
 const content = {
   tr: {
